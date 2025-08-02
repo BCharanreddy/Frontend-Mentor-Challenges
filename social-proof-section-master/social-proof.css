@@ -1,0 +1,97 @@
+body{
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    padding: 5%;
+    
+    
+}
+.box{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    font-size: 3em;
+    color: hsl(300, 43%, 22%);
+}
+.text{
+    width: 35%;
+    padding: 0px 10%;
+    height: auto;
+    
+    
+}
+.text>p{
+    color: hsl(303, 10%, 53%);
+}
+.rating{
+    width: 44%;
+    
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.stars{
+    background-color:hsl(300, 24%, 96%);
+    width: 60%;
+    height: 35%;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5px;
+    
+}
+h5{
+    display: inline;
+    margin-left: 30px;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    padding: 2%;
+    width: 20%;
+    height: 60%;
+    background-color: hsl(300, 43%, 22%);
+    margin: 0px 1%;
+    border-radius: 5px;
+}
+.profile+img{
+    width: 32px;
+    height: 32px;
+}
+#pic{
+    width: 40px;
+    height: 40px;
+    border-radius:20px ;
+}
+.profile{
+    display: flex;
+    align-items: center;
+
+}
+.name{
+    margin: 15px;
+}
+h4{
+    margin: 0px;
+}
+.review > p,.name>h4{
+    color: white;
+}
