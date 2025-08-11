@@ -1,0 +1,64 @@
+*{
+    margin: 2px;
+
+}
+div{
+    margin: 10px;
+}
+body{
+    margin-top: 10%;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h3,p{
+    color:white;
+}
+img{
+width: 85px;
+height: 85px;
+border-radius: 42px;
+}
+.card{
+    width: 20%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+h3+p{
+    color: hsl(75, 94%, 57%);
+}
+.link{
+    width: 80%;
+    height: auto;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: hsl(0,0%,20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    
+}
+.link:hover p{
+    color:black;
+}
+a{
+    text-decoration: none;
+    
+    color:white;
+    cursor: pointer;
+}
